@@ -1,0 +1,9 @@
+helm reset --force
+
+https://stackoverflow.com/questions/54514994/not-able-to-create-prometheus-in-k8s-cluster
+
+kubectl create -f rbac_config.yml
+
+helm init --service-account tiller
+
+
